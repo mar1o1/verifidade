@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de execícicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <header>
+            <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p> Ano de Nascimento:</p>
+            <input type="number" name="data" id="txtano">
+            <p>Sexo:</p>
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="rdosexo">Masculino</label>
+            <input type="radio" name="radsex" id="fem ">
+            <label for="rdosexo">Feminino</label>
+            <p>
+               <input type="button" value="Verificar" id="btnverificar" onclick="verificar()">
+            </p>
+            
+        </div>
+
+        <div id="res">
+            
+            Preencha os campos acima para verificar a idade.
+        </div>
+
+    </section>
+    <footer>
+        <p>Desenvolovido por: Mário Arthur Matsuoka </p>
+        
+
+    </footer>
+    <script src="modelo.js"></script>
+    </body>
+    </html>
