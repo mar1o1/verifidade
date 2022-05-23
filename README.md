@@ -6,4 +6,4 @@
 
 
 ### DEMO
-<a href=" https://mar1o1.github.io/verifidade/" target="_blank" rel="noopener noreferrer">Veja aqui</a>
+<a href="https://mar1o1.github.io/verifidade/" target="_blank" rel="noopener noreferrer">Veja aqui</a>
